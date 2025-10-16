@@ -17,4 +17,5 @@
 ## 快速开始
 
 1. **本地查看网站**：打开文件夹`dict`，然后打开文件`index.html`。
-2. **部署静态网站**：打开部署好的网站。
+2. **部署静态网站**：打开部署好的网站[https://typhoon-knowledge-preservation-ahty.vercel.app/]
+
