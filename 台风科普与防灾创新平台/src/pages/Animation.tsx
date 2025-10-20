@@ -119,17 +119,17 @@ export default function AnimationPage() {
     {
       title: '台风是什么？',
       desc: '台风是形成于西北太平洋和南海的热带气旋，拥有清晰的台风眼与螺旋雨带。',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/09d0f1e4-6bf5-4731-a009-f4e094e9092d.png',
+      img: './image/台风是什么.png',
     },
     {
       title: '台风的破坏力',
       desc: '强风、暴雨与风暴潮共同作用，可能引发风倒、内涝与海岸侵蚀等灾害。',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/260e9228-1cc3-4b78-acc4-0786fde419c9.png',
+      img: './image/台风的破坏力.png',
     },
     {
       title: '台风与天气预报',
       desc: '数值模式与卫星雷达数据用于路径与强度预报，形成“预报锥”。',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/a9bb57d0-6f6b-4ccd-a9df-6e7c38d2e6a9.png',
+      img: './台风预测.png',
     },
   ]
 
