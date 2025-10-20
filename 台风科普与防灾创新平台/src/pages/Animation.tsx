@@ -113,23 +113,25 @@ export default function AnimationPage() {
   }
 
   const rpm = (spin / (2 * Math.PI)) * 60
-
+  
+  const images = import.meta.glob('../assets/image/*.png', { eager: true, import: 'default' })
+  const pick = (name: string) => images[`../assets/image/${name}.png`]
   // Knowledge cards content
   const cards = [
     {
       title: '台风是什么？',
       desc: '台风是形成于西北太平洋和南海的热带气旋，拥有清晰的台风眼与螺旋雨带。',
-      img: 'assets/image/台风是什么.png',
+      img: pick('台风是什么'),
     },
     {
       title: '台风的破坏力',
       desc: '强风、暴雨与风暴潮共同作用，可能引发风倒、内涝与海岸侵蚀等灾害。',
-      img: 'assets/image/台风的破坏力.png',
+      img: pick('台风的破坏力'),
     },
     {
       title: '台风与天气预报',
       desc: '数值模式与卫星雷达数据用于路径与强度预报，形成“预报锥”。',
-      img: 'assets/image/台风预测.png',
+      img: pick('台风预测'),
     },
   ]
 
