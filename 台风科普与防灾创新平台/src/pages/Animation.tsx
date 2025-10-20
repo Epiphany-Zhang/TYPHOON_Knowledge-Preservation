@@ -129,7 +129,7 @@ export default function AnimationPage() {
     {
       title: '台风与天气预报',
       desc: '数值模式与卫星雷达数据用于路径与强度预报，形成“预报锥”。',
-      img: './台风预测.png',
+      img: './image/台风预测.png',
     },
   ]
 
