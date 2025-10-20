@@ -19,21 +19,21 @@ export default function HomePage() {
       desc: '形成条件、结构与等级，快速入门',
       icon: BookOpenText,
       href: '#/theory',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/aca94076-d30c-4f1d-bb8a-1f79c504cc38.png',
+      img: './image/台风知识.png',
     },
     {
       title: '动态演示',
       desc: '风场/浪场示意，观察海面变化趋势',
       icon: PlayCircle,
       href: '#/animation',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/e5e193f7-3adc-4b95-acba-497e52ddf91e.png',
+      img: './image/动态演示png',
     },
     {
       title: '应急防范',
       desc: '来临前后准备要点、避险原则与清单',
       icon: ShieldCheck,
       href: '#/safety',
-      img: 'https://pub-cdn.sider.ai/u/U0L5HAOE6JV/web-coder/68e72512b54d8be52ac19385/resource/8a431ebb-890a-4647-9d45-be91d2b0dc2a.jpg',
+      img: './image/应急.jpg',
     }
   ]
 
