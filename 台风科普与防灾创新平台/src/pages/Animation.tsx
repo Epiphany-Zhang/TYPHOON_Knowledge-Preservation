@@ -115,7 +115,7 @@ export default function AnimationPage() {
   const rpm = (spin / (2 * Math.PI)) * 60
   
   const images = import.meta.glob('../assets/image/*.png', { eager: true, import: 'default' })
-  const pick = (name: string) => images[`./assets/image/${name}.png`]
+  const pick = (name: string) => images[`../assets/image/${name}.png`]
   // Knowledge cards content
   const cards = [
     {
